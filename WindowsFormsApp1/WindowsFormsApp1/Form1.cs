@@ -24,5 +24,11 @@ namespace WindowsFormsApp1
           
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("yeni_buton");
+
+        }
     }
 }
