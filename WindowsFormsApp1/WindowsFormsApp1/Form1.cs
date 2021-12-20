@@ -30,5 +30,11 @@ namespace WindowsFormsApp1
             MessageBox.Show("yeni_buton");
 
         }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(-1);
+
+        }
     }
 }
