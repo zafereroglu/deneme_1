@@ -24,5 +24,30 @@ namespace WindowsFormsApp1
           
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("yeni_buton");
+
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(-1);
+
+        }
+
+        private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(-1);
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("irob yazılım v1.0","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            string a;
+
+        }
     }
 }
