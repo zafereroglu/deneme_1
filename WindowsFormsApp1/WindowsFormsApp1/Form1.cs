@@ -36,5 +36,16 @@ namespace WindowsFormsApp1
             Environment.Exit(-1);
 
         }
+
+        private void SaveAsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(-1);
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            MessageBox.Show("irob yazılım v1.0","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }
