@@ -46,6 +46,8 @@ namespace WindowsFormsApp1
         {
             
             MessageBox.Show("irob yazılım v1.0","",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            string a;
+
         }
     }
 }
